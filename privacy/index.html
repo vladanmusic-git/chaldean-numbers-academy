@@ -52,7 +52,7 @@
     <tr><td>Your AI tutor question and recent messages from that conversation</td><td>To generate an answer about the lesson material, only after your explicit consent. See section 4.</td></tr>
     <tr><td>Purchase and subscription status</td><td>To unlock the content you paid for and manage your subscription and free trial.</td></tr>
     <tr><td>Local learning progress (lessons completed and reading position)</td><td>To show your progress through the course. This stays on your device.</td></tr>
-    <tr><td>App usage events and diagnostics (screens viewed, crashes, performance)</td><td>To understand which features are used and to find and fix bugs and crashes. Raw calculator entries and chat text are excluded from analytics.</td></tr>
+    <tr><td>App-generated pseudonymous analytics identifier, usage events, and diagnostics (screens viewed, crashes, performance)</td><td>To recognize one app installation across sessions, understand which features are used, and find and fix bugs and crashes. This identifier is kept separate from local profile values. Raw calculator entries and chat text are excluded from analytics.</td></tr>
   </table>
   </div>
   <p>We do <strong>not</strong> collect your contacts, photos, precise location, health records, or advertising identifiers.</p>
@@ -63,7 +63,7 @@
     <li><strong>Supabase</strong> — anonymous technical authentication and server-side app services.</li>
     <li><strong>RevenueCat</strong> — subscription and purchase management.</li>
     <li><strong>OpenAI</strong> and <strong>Google (Gemini)</strong> — generate AI study-tutor answers from the text you send (see section 4).</li>
-    <li><strong>PostHog</strong> — anonymous product-usage analytics to improve the app.</li>
+    <li><strong>PostHog</strong> — pseudonymous product-usage analytics, kept separate from your local name, birth date, and email, to improve the app.</li>
     <li><strong>Sentry</strong> — crash and performance diagnostics.</li>
   </ul>
   <p>Apple processes your subscription payments; we never see your full payment-card details.</p>
@@ -76,7 +76,7 @@
   <p>The app does not use cookies. Calculator data, local profile values, progress, chat history, and settings are kept in the device’s local storage and can be removed with the in-app delete-data action. These informational web pages set no cookies either.</p>
 
   <h2>6. How long we keep data</h2>
-  <p>The anonymous technical account exists while you use the app. The in-app delete-data action removes that account and the app’s local data (see section 8). Anonymous, aggregated usage and diagnostic data may be retained to keep the app reliable. Apple and RevenueCat may retain purchase records as required for billing, fraud prevention, and legal compliance.</p>
+  <p>The anonymous technical account exists while you use the app. The in-app delete-data action removes that account and the app’s local data (see section 8). Pseudonymous analytics events and aggregated diagnostic data may be retained to keep the app reliable. Apple and RevenueCat may retain purchase records as required for billing, fraud prevention, and legal compliance.</p>
 
   <h2>7. Your rights</h2>
   <p>If you are in the EU/EEA, the UK, or another jurisdiction with similar data-protection law (including Serbia), you have the right to:</p>
